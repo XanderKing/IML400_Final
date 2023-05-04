@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    box-sizing: border-box;
+    overflow: hidden;
+    /* background-color: #D8D0C8; */
+    background-image: url("windows95-fucked.jpg");
+    /* BABAC2 */
+}
+    
+.mid-popup {
+    position: absolute;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    width: 1000px;
+    height: 750px;
+    border: 10px solid lightgray;
+    border-radius: 10px;
+    /* border-radius:5px; */
+    /* padding: 20px; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    /* display: none; */
+    z-index: -1;
+}
+
+/* #container3D{
+    width: 100vw !important;
+    height: 100vh !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+} */
+
+.wrap {
+    /* max-width: 800px; */
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.card {
+    background: grey;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.15);
+    color: white;
+    /* padding: 0.8em 0; */
+    margin-bottom: 0 auto;
+}
+
+.layout{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 1em;
+}
